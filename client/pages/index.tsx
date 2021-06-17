@@ -5,11 +5,7 @@ export default function Home() {
   return (
     <Container>
       <Box p={4}>
-        <Flex
-          flexDirection="column"
-          justifyContent="center"
-          alignItems="center"
-        >
+        <Flex flexDirection="column" justifyContent="center" alignItems="center">
           <h1>lorem ipsum</h1>
           <Flex gap={2}>
             <span>software eng</span>
